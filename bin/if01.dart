@@ -8,5 +8,11 @@ Args:
 Returns:
     int: return answer.
 */
-void main() {
+int func(int a, int b, int c) {
+  int x = a;
+  if (b > x) x = b;
+  if (c > x) x = c;
+  return x;
 }
+
+void main() {}

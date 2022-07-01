@@ -7,6 +7,10 @@ Args:
 Returns:
     int: return answer. 
 */
-
-void main() {
+int func(int a, int b) {
+  if (a == b) return 0;
+  if (a > b) return a;
+  return b;
 }
+
+void main() {}
